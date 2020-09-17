@@ -1,3 +1,5 @@
+@import url("./mod.image-gallery.css");
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -11,8 +13,4 @@ body {
 
 h1 {
   text-align: center;
-}
-
-img {
-  width: 500px;
 }
