@@ -4,6 +4,8 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  border: 5px solid rgb(238, 255, 0);
+  color: aqua;
 }
 
 body {
@@ -14,3 +16,4 @@ body {
 h1 {
   text-align: center;
 }
+
