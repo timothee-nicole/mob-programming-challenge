@@ -12,15 +12,12 @@ app.set("view engine", "hbs");
 app.set("views", __dirname + "/views");
 hbs.registerPartials(__dirname + "/views/partials");
 
-const users = [
-  {
-    name: "Toto",
-    email: "toto@mail.com",
-    favoriteLanguage: "Javascript",
-  },
-];
 
-const images = ["img/coding1.jpg", "img/coding2.jpg", "img/coding3.jpg"];
+// ROUTING
+
+const pageRouter = require("./routes/pages");
+app.use(pageRouter);
+
 
 app.listen(process.env.PORT, () => {
   console.log(`server ready to rock at http://localhost:${process.env.PORT}`);
