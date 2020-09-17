@@ -2,8 +2,10 @@
 
 ## Hey DevSquad 248, let's GIT together !
 
-You've been added as a collaborator to a github repo.
-**Accept** the invite and clone the initial code.
+You've been assigned to a team.
+Pick one member of your team to fork the provided repo : 
+https://github.com/Kostra0ne/mob-programming-challenge
+He/She will invite the other members of the team as collaborators.
 The challenge includes several **iteration**.
 Work as a **team** and pass the **ball**
 When your turn comes, you are the **driver** and the other are the **navigators**.
